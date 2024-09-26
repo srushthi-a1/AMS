@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title> AMS </title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-image: url('images/pic-2.jpeg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        #heading {
+            display: flex;
+            align-items: right;
+            justify-content: space-between;
+            padding: 20px;
+        }  
+
+        #titleIcon {
+            height: 100px;
+            width: 350px;
+        }
+
+        #title {
+            flex-grow: 1;
+            text-align: right;
+            color: rgb(0, 51, 102);
+            font-size: 20px;
+            font-family: 'Arial', sans-serif;
+        }
+
+        #loginButton {
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+        }
+
+        .loginButton {
+            border: 2px solid white;
+            border-radius: 10px;
+            background-color:  rgba(171, 172, 182, 0.4);
+            padding: 20px 50px;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            font-size: 20px;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: background-color 0.3s;
+        }
+
+        .loginButton:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
+        #quote {
+            color: rgb(238, 238, 238);
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            font-size: 17px;
+            margin-top: 150px;
+        }
+
+        footer {
+            background-color:  rgba(0, 51, 102, 0.3);
+            color: white;
+            font-family: 'Arial', sans-serif;
+            font-size: 15px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+
+        #contactUs {
+            margin-top: 20px;
+        }
+
+        .contacts {
+            margin-left: 20px;
+        }
+
+        .contacts a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+
+        #phoneNumberList {
+            list-style: none;
+            padding-left: 15px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- HEADER  -->
+    <div id="heading">
+        <img id="titleIcon" src="https://iitgoa.ac.in/wp-content/uploads/cropped-iit_goa.png" />
+        <h1 id="title"> AMS IIT GOA </h1>
+    </div>
+
+    <!-- LOGIN BUTTON -->
+    <div id="loginButton">
+        <a href="dashboard.html"><button class="loginButton">Login</button></a>
+    </div>
+
+    <!-- QUOTE -->
+    <div id="quote">
+        <h2><em>"विद्या विनयना दीप्यते"</em></h2>
+    </div>
+    
+    <!-- FOOTER  -->
+    <footer>
+
+        <p class="contacts" id="contactUs"> <b>Contact Us :</b> <a href="mailto:https://iitgoa.ac.in/">www.@iitgoa.ac.in</a></p>
+        
+        <div style="display: flex;">
+            <p class="contacts"> <b>Phone Number :</b> </p>
+            <ul id="phoneNumberList">
+                <li>+91 9852364562</li>
+                <li>+91 9852322222</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
